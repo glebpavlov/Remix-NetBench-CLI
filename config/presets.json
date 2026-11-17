@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Cloudflare Speed Test (10 MB)",
+    "url": "https://speed.cloudflare.com/__down?bytes=10000000"
+  },
+  {
+    "name": "Cloudflare Speed Test (25 MB)",
+    "url": "https://speed.cloudflare.com/__down?bytes=25000000"
+  },
+  {
+    "name": "Hetzner Ashburn (10 MB)",
+    "url": "https://ash-speed.hetzner.com/10MB.bin"
+  },
+  {
+    "name": "Tele2 Speedtest (10 MB)",
+    "url": "http://speedtest.tele2.net/10MB.zip"
+  }
+]

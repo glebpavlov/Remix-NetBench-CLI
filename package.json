@@ -1,0 +1,31 @@
+{
+  "name": "netbench-cli",
+  "version": "1.0.0",
+  "description": "CLI utility for benchmarking HTTP(S) download throughput with a zero-flicker differential TUI",
+  "main": "dist/index.js",
+  "bin": {
+    "netbench": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "lint": "eslint src tests",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\" \"config/*.json\"",
+    "format:check": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\" \"config/*.json\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "private": true,
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^20.17.19",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.10.1",
+    "tsx": "^4.23.15",
+    "typescript": "~5.9.2",
+    "typescript-eslint": "8.47.0",
+    "vitest": "^4.0.0"
+  }
+}
